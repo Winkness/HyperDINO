@@ -1,2 +1,2 @@
 # HyperDINO
-HyperDINO: Towards limited data hyperspectral image classification by parameter-efficient transfer learning
+Code for "HyperDINO: Towards Limited Data Hyperspectral Image Classification by Parameter-Efficient Transfer Learning"
