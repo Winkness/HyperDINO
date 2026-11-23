@@ -17,45 +17,28 @@ conda activate Hyperdino
 pip install -r requirements.txt
 ```
 ## Datasets
-- [Longkou]([https://competitions.codalab.org/competitions/18467#participate-get_starting_kit](https://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm))
-- [Massachusetts](https://www.cs.toronto.edu/~vmnih/data/)
-- [SpaceNet-Test, From WHU](https://rsidea.whu.edu.cn/GRSet.htm)
-- [RoadTracer-Test, From WHU](https://rsidea.whu.edu.cn/GRSet.htm)
+- [WHU-Hi-LongKou (LK)](https://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm)
+- [University of Pavia (PU)](https://huggingface.co/datasets/danaroth/pavia/tree/main)
+- [Salinas (SA)](https://huggingface.co/datasets/danaroth/salinas/tree/main)
+- [Houston (HU)](https://www.grss-ieee.org/community/technical-committees/2013-ieee-grss-data-fusion-contest/)
 ## Preprocessing Datasets
 ```shell
-cd Process
-python split.py
+cd Hyperdino
+python main.py
 ```
 ## Train
 ```shell
-cd Segment
-
-CUDA_VISIBLE_DEVICES="1" \
-python train.py --hiera_path "/insert your path/pretrained-SAM/sam2_hiera_large.pt" \
---dinov3_path "./insert your path/dinov3_vitl16_pretrain_sat493m-eadcf0ff.pth" \
---train_image_path "/insert your train dataset path/images/" \
---train_mask_path "/insert your train dataset path/masks/" \
---save_path "./save" \
---epoch 20 \
---lr 0.0002 \
---batch_size 2
+xxxx
 ```
 ## Test
 ```shell
-CUDA_VISIBLE_DEVICES="1" \
-python test.py \
---checkpoint "/insert your model path/DSAN-Seg-20.pth" \
---test_image_path "/insert your test dataset path/img/" \
---test_gt_path "/insert your test dataset path/gt/" \
---save_path "./masks"
+xxxxx
 ```
 ## Acknowledgement
 #Pretrained Model
-[segment anything 2](https://github.com/facebookresearch/segment-anything-2)
 [DINOV3](https://github.com/facebookresearch/dinov3.git)
 #Datasets
-[The Deepglobe dataset](https://competitions.codalab.org/competitions/18467#participate-get_starting_kit)
-[The Massachusetts dataset](https://www.cs.toronto.edu/~vmnih/data/)
-[The GRSet dataset](https://rsidea.whu.edu.cn/GRSet.htm)
-#Baseline
-[SAM2-UNeXT](https://github.com/WZH0120/SAM2-UNeXT)
+- [WHU-Hi-LongKou (LK)](https://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm)
+- [University of Pavia (PU)](https://huggingface.co/datasets/danaroth/pavia/tree/main)
+- [Salinas (SA)](https://huggingface.co/datasets/danaroth/salinas/tree/main)
+- [Houston (HU)](https://www.grss-ieee.org/community/technical-committees/2013-ieee-grss-data-fusion-contest/)
