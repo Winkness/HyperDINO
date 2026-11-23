@@ -34,6 +34,21 @@ xxxx
 ```shell
 xxxxx
 ```
+### Citation
+
+If you find HyperDINO useful in your research or refer to the provided baseline results, please star ⭐ this repository and consider citing
+```
+@article{JING2026135743,
+title = {HyperDINO: Towards limited data hyperspectral image classification by parameter-efficient transfer learning},
+journal = {Neurocomputing},
+pages = {135743},
+year = {2026},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2026.135743},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231226031413},
+author = {Yuxing Jing and Heng Wang and Yunan Wang}
+}  
+```
 ## Acknowledgement
 #Pretrained Model
 [DINOV3](https://github.com/facebookresearch/dinov3.git)
