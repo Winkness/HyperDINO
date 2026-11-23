@@ -1,6 +1,6 @@
 # HyperDINO
 ## HyperDINO: Towards Limited Data Hyperspectral Image Classification by Parameter-Efficient Transfer Learning
-![framework](./fig1_01.png)
+![framework](./Hyperdino.jpg)
 ## News
 -2026/1/21-30 Code is being organized and uploaded.
 ## Requirements
