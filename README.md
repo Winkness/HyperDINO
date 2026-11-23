@@ -21,7 +21,7 @@ pip install -r requirements.txt
 - [University of Pavia (PU)](https://huggingface.co/datasets/danaroth/pavia/tree/main)
 - [Salinas (SA)](https://huggingface.co/datasets/danaroth/salinas/tree/main)
 - [Houston (HU)](https://www.grss-ieee.org/community/technical-committees/2013-ieee-grss-data-fusion-contest/)
-## Preprocessing Datasets
+## Start
 ```shell
 cd Hyperdino
 python main.py
