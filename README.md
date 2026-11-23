@@ -2,9 +2,9 @@
 ## HyperDINO: Towards Limited Data Hyperspectral Image Classification by Parameter-Efficient Transfer Learning
 ![framework](./Hyperdino.jpg)
 ## News
--2026/1/21-30 Code is being organized and uploaded.
+-2026/11/23 Code is being organized and uploaded.
 ## Requirements
--Pytorch 2.7.1
+-Pytorch 2.xx.x
 ## Clone Repository
 ```shell
 git clone https://github.com/Winkness/Segment.git
@@ -12,12 +12,12 @@ cd Segment
 ```
 ## Get Started Quickly
 ```shell
-conda create -n DSAM-Seg python==3.10
-conda activate DSAM-Seg
+conda create -n Hyperdino python==3.x
+conda activate Hyperdino
 pip install -r requirements.txt
 ```
 ## Datasets
-- [DeepGlobe](https://competitions.codalab.org/competitions/18467#participate-get_starting_kit)
+- [Longkou]([https://competitions.codalab.org/competitions/18467#participate-get_starting_kit](https://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm))
 - [Massachusetts](https://www.cs.toronto.edu/~vmnih/data/)
 - [SpaceNet-Test, From WHU](https://rsidea.whu.edu.cn/GRSet.htm)
 - [RoadTracer-Test, From WHU](https://rsidea.whu.edu.cn/GRSet.htm)
