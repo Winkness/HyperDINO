@@ -4,7 +4,7 @@
 <h1>HyperDINO: Towards Limited Data Hyperspectral Image Classification by Parameter-Efficient Transfer Learning</h1>
 <div>
     <h4 align="center"> 
-        • <a href="https://www.sciencedirect.com/science/article/pii/S0925231226031413" target='_blank'>[Paper]</a> • 
+        • <a href="https://www.sciencedirect.com/science/article/pii/S0925231226031413" target='_blank'>[Paper]</a> • <a href="https://github.com/Winkness/HyperDINO.git" target='_blank'>[Code]</a> • 
     </h4>
 </div>
 </div>
